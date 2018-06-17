@@ -6,6 +6,10 @@ $font-family: Raleway,"Helvetica Neue","Lucida Grande",Arial,Verdana,sans-serif;
 $font-family-headings: Montserrat,"Helvetica Neue","Lucida Grande",Arial,Verdana,sans-serif;
 
 // Global Settings
+body {
+	background-image: linear-gradient(#6689bb, #cbd5eb);
+	color: white;
+}
 
 
 // Start Content
@@ -21,6 +25,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.7px;
 	color: #6d6d6d;
+	color: white;
 }
 
 main {

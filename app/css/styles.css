@@ -242,6 +242,11 @@ template {
 
 [hidden] {
   display: none !important; }
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6689bb), to(#cbd5eb));
+  background-image: linear-gradient(#6689bb, #cbd5eb);
+  color: white; }
+
 h1 {
   font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   font-size: 4rem;
@@ -252,7 +257,8 @@ h1 {
 p {
   font-weight: 500;
   letter-spacing: 0.7px;
-  color: #6d6d6d; }
+  color: #6d6d6d;
+  color: white; }
 
 main {
   display: -webkit-box;
